@@ -1,5 +1,5 @@
 import numpy as np
-import xapi.api_dev as xad
+import xapi.api as xad
 class RobConfig:
     JOINT_RANGE_DEFAULT = {'j1': {'min': -120, 'max': 120}, 'j2': {'min': -70, 'max': 100}, 'j3': {'min': -180, 'max': 50},
                            'j4': {'min': -160, 'max': 160}, 'j5': {'min': -100, 'max': 100}, 'j6': {'min': -180, 'max': 180},
